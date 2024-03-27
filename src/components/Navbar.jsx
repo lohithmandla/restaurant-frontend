@@ -1,7 +1,7 @@
 // Navbar.js
 import React, { useRef ,useState ,useEffect} from "react";
 import Logo from "../assets/images/logo.png"; 
-import { useCart } from "../context/Cartcontext";
+import { useCart } from "../context/CartContext";
 
 const Navbar = () => {
   const { cartItems, removeFromCart} = useCart();

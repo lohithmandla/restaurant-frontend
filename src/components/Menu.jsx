@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useCart } from "../context/Cartcontext";
+import { useCart } from "../context/CartContext";
 const Menu = () => {
     const { addToCart } = useCart();
     const [products, setProducts]=useState([]);
