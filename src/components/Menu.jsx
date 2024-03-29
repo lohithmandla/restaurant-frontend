@@ -6,7 +6,7 @@ const Menu = () => {
     const [products, setProducts]=useState([]);
     useEffect(()=>{
         const getData=async ()=>{
-            let result=await axios.get("http://51.20.103.247:8000/getall")
+            let result=await axios.get("http://16.170.211.165:8000/getall")
             const {data}=result;
             setProducts(data)
         }
